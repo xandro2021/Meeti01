@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="icon" href="linux.png" type="image/png" media="screen" />
     <link rel="stylesheet" href="build/css/app.css">
 </head>
+
 <body>
     <header class="header contenedor">
         <div class="header__logo">
@@ -33,7 +35,7 @@
         <h2 class="busqueda__heading">Busca un grupo en tu ciudad</h2>
         <div class="contenedor">
             <form class="formulario" method="" id="" action="">
-                <select class="formulario__campo" id="" name="" >
+                <select class="formulario__campo" id="" name="">
                     <option value="">Programacion</option>
                     <option value="">Diseño</option>
                     <option value="">Negocios</option>
@@ -48,12 +50,84 @@
                     <option value="">Emprendimiento</option>
                 </select>
 
-                <input class="formulario__campo" type="text" name="" value="" placeholder="Nombre Evento"/>
-                <input class="formulario__campo" type="text" name="" value="" placeholder="Ciudad o País"/>
-                <input class="formulario__submit" type="submit" value="Buscar"/>
+                <input class="formulario__campo" type="text" name="" value="" placeholder="Nombre Evento" />
+                <input class="formulario__campo" type="text" name="" value="" placeholder="Ciudad o País" />
+                <input class="formulario__submit" type="submit" value="Buscar" />
             </form>
         </div>
     </section>
-    
+
+    <main class="eventos contenedor">
+        <h2 class="eventos__heading">Proximos Eventos</h2>
+
+        <div class="eventos__grid">
+
+            <div class="evento">
+                <a href="meeti.html">
+                    <img class="evento__imagen" alt="imagen meeti" src="build/img/imagen1.jpg" />
+
+                    <div class="evento__contenido">
+                        <p class="evento__fecha">Jueves 30 de Septiembre del 2023</p>
+                        <h3 class="evento__nombre">Ideas de Negocios</h3>
+
+                        <div class="evento__autor">
+                            <div class="evento__autor-imagen">
+                                <img src="build/img/perfil1.jpg" alt="imagen perfil" />
+                            </div>
+                            <div class="evento__autor-informacion">
+                                <p class="evento__organizado-texto"> Organizado por: </p>
+                                <p class="evento__organizado-nombre">Bill Scott</p>
+                            </div>
+                        </div>
+                    </div> <!-- .evento-contenido -->
+                </a>
+            </div> <!-- .evento -->
+
+            <div class="evento">
+                <a href="meeti.html">
+                    <img class="evento__imagen" alt="imagen meeti" src="build/img/imagen2.jpg" />
+
+                    <div class="evento__contenido">
+                        <p class="evento__fecha">Lunes 02 de Octubre del 2023</p>
+                        <h3 class="evento__nombre">Bitcoin y Otras Criptos</h3>
+
+                        <div class="evento__autor">
+                            <div class="evento__autor-imagen">
+                                <img src="build/img/perfil2.jpg" alt="imagen perfil" />
+                            </div>
+                            <div class="evento__autor-informacion">
+                                <p class="evento__organizado-texto"> Organizado por: </p>
+                                <p class="evento__organizado-nombre">Marco Blaine</p>
+                            </div>
+                        </div>
+                    </div> <!-- .evento-contenido -->
+                </a>
+            </div> <!-- .evento -->
+
+            <div class="evento">
+                <a href="meeti.html">
+                    <img class="evento__imagen" alt="imagen meeti" src="build/img/imagen3.jpg" />
+
+                    <div class="evento__contenido">
+                        <p class="evento__fecha">Miercoles 04 de Octubre de 2023</p>
+                        <h3 class="evento__nombre">Pizza paso a paso</h3>
+
+                        <div class="evento__autor">
+                            <div class="evento__autor-imagen">
+                                <img src="build/img/perfil3.jpg" alt="imagen perfil" />
+                            </div>
+                            <div class="evento__autor-informacion">
+                                <p class="evento__organizado-texto"> Organizado por: </p>
+                                <p class="evento__organizado-nombre">Josue Perez</p>
+                            </div>
+                        </div>
+                    </div> <!-- .evento-contenido -->
+                </a>
+            </div> <!-- .evento -->
+
+        </div>
+    </main>
+
 </body>
+
 </html>
