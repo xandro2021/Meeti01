@@ -1,0 +1,30 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.sidebar {
+    margin-top: 5rem;
+
+    @include m.tablet {
+        margin-top: 0;
+
+    }
+
+    &__contenido {
+        background-color: v.$secundario;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    &__heading,
+    &__texto{
+        color: v.$blanco;
+    }
+
+    &__label {
+        font-weight: 700;
+    }
+
+    &__mapa {
+        width: 100%;
+    }
+}
